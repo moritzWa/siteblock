@@ -1,0 +1,23 @@
+/* darkmode styles */
+
+body {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #212121;
+  color: #f5f5f5;
+}
+
+/* Additional styles for dark mode */
+body.dark-mode a {
+  color: #8ab4f8;
+}
+
+body.dark-mode input,
+body.dark-mode textarea {
+  background-color: #424242;
+  color: #f5f5f5;
+}
