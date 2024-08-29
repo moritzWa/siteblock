@@ -1,9 +1,12 @@
-<html>
+<html lang="en">
   <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SiteBlock Extension Options</title>
 
     <script type="text/javascript" src="../js/siteblock.js"></script>
     <script type="text/javascript" src="../js/options.js"></script>
+    <script type="text/javascript" src="../js/dark-mode.js"></script>
     <link
       rel="stylesheet"
       href="../main.css"
@@ -14,16 +17,30 @@
   <body>
     <div id="status"></div>
     <form>
-      Sites to Block:<br />
-      <textarea spellcheck="false" id="rules" cols="60" rows="15"></textarea>
+      <label for="rules">Sites to Block:</label><br />
+      <textarea
+        spellcheck="false"
+        id="rules"
+        cols="60"
+        rows="15"
+        title="Enter sites to block, one per line"
+      ></textarea>
       <br />
-      Unblock for <input type="text" id="allowed" cols="6" /> minutes every
-      <input type="text" id="period" cols="6" /> hours.
+      <label for="allowed">Unblock for</label>
+      <input
+        type="text"
+        id="allowed"
+        size="6"
+        title="Enter allowed time in minutes"
+      />
+      <label for="period">minutes every</label>
+      <input type="text" id="period" size="6" title="Enter period in hours" />
+      hours.
       <br />
       <input id="submit" type="button" value="Save Options" />
     </form>
 
-    <h2>Help</h2>
+    <h2>Help Test!!!!</h2>
 
     <p>List the websites you want to block, one per line. For example:</p>
     <pre>

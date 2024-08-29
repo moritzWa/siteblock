@@ -62,7 +62,10 @@ chrome.windows.getAll({ populate: true }, onWindows);
 import { isDarkModePreferred } from "./dark-mode.js";
 
 function applyDarkMode() {
+  console.log("in applyDarkMode()");
+
   const isDarkMode = isDarkModePreferred();
+  console.log("isDarkMode", isDarkMode);
   document.body.classList.toggle("dark-mode", isDarkMode);
 }
 
