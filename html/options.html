@@ -17,7 +17,7 @@
   <body>
     <div id="status"></div>
     <form>
-      <label for="rules">Sites to Block:</label><br />
+      <label for="rules">Sites to Block:</label>
       <textarea
         spellcheck="false"
         id="rules"
@@ -25,22 +25,23 @@
         rows="15"
         title="Enter sites to block, one per line"
       ></textarea>
-      <br />
       <label for="allowed">Unblock for</label>
-      <input
-        type="text"
-        id="allowed"
-        size="6"
-        title="Enter allowed time in minutes"
-      />
-      <label for="period">minutes every</label>
-      <input type="text" id="period" size="6" title="Enter period in hours" />
-      hours.
-      <br />
+      <div>
+        <input
+          type="text"
+          id="allowed"
+          size="6"
+          title="Enter allowed time in minutes"
+        />
+        <label for="period">minutes every</label>
+        <input type="text" id="period" size="6" title="Enter period in hours" />
+        hours.
+        <br />
+      </div>
       <input id="submit" type="button" value="Save Options" />
     </form>
 
-    <h2>Help Test!!!!</h2>
+    <h2>Help</h2>
 
     <p>List the websites you want to block, one per line. For example:</p>
     <pre>

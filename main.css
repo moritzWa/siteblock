@@ -3,6 +3,12 @@
 body {
   background-color: #fff;
   color: #333;
+  padding: 30px;
+}
+
+form {
+  display: grid;
+  gap: 10px;
 }
 
 /* Dark mode styles */
