@@ -3,13 +3,14 @@
 body {
   background-color: #fff;
   color: #333;
-  padding: 30px;
+  /* padding: 30px; */
 }
 
-form {
+/* form {
   display: grid;
+  flex-direction: column;
   gap: 10px;
-}
+} */
 
 /* Dark mode styles */
 body.dark-mode {
